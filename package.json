@@ -1,0 +1,38 @@
+{
+  "name": "agentic-video-kit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render/render.mjs",
+    "preview": "node render/render.mjs --preview",
+    "stills": "node render/stills.mjs",
+    "film": "node tools/film.mjs",
+    "review": "node render/review.mjs",
+    "snap": "node render/snap.mjs --all",
+    "test": "node tools/test.mjs",
+    "test:quick": "node tools/test.mjs --quick",
+    "assets": "node tools/assets.mjs",
+    "doctor": "node tools/doctor.mjs",
+    "test:unit": "node --test tests/*.test.mjs",
+    "test:frames": "node tools/determinism.mjs",
+    "snap:update": "node render/snap.mjs --film example --update"
+  },
+  "dependencies": {
+    "puppeteer-core": "23.11.1",
+    "three": "0.169.0"
+  },
+  "version": "0.1.0",
+  "description": "A content-free local video pipeline for your own modules, assets, audio and deterministic rendering.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FractalBoy9X/AgenticVideoKit.git"
+  },
+  "homepage": "https://github.com/FractalBoy9X/AgenticVideoKit#readme",
+  "bugs": {
+    "url": "https://github.com/FractalBoy9X/AgenticVideoKit/issues"
+  }
+}

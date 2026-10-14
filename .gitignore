@@ -1,0 +1,39 @@
+# Local dependencies, tools, credentials and platform metadata
+node_modules/
+.venv/
+.voices/
+__pycache__/
+*.pyc
+._*
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+
+# Your projects and source media stay local by default.
+# To deliberately publish one, review its contents, then git add -f films/<slug>.
+films/*
+!films/_template/
+!films/example/
+assets/library/*
+!assets/library/.gitkeep
+materials/
+
+# Generated artifacts (including from the public example)
+output/
+renders/
+films/*/output/
+films/*/renders/
+films/*/review/
+films/*/audio/
+films/*/approved.json
+films/*/film.draft.json
+audio/*.wav
+src/library/index.json
+tests/snapshots/_cur/
+tests/snapshots/_diff/
+tests/snapshots/_report.json
+tests/.tmp/

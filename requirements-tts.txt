@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional local narration; model weights download separately.
+piper-tts==1.8.0
+onnxruntime==1.31.0

@@ -1,0 +1,21 @@
+{
+  "title": "My video",
+  "languages": ["en","pl"],
+  "formats": ["16:9","9:16"],
+  "style": {},
+  "voice": "none",
+  "music": "none",
+  "subtitles": true,
+  "shots": [
+    {
+      "id": "sample",
+      "hold": 3,
+      "text": {"en":"Your module","pl":"Twój moduł"},
+      "say": {
+        "en": "Replace this technical example with your own content.",
+        "pl": "Zastąp przykład techniczny własną treścią."
+      },
+      "type": "./message"
+    }
+  ]
+}

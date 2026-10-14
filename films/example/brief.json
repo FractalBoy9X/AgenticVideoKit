@@ -1,0 +1,12 @@
+{
+  "title": "My video",
+  "scenario": "Describe the film you want to create. Implement its content in your own modules.",
+  "languages": [
+    "en",
+    "pl"
+  ],
+  "formats": [
+    "16:9",
+    "9:16"
+  ]
+}

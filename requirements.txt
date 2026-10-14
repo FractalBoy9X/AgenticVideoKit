@@ -1,0 +1,4 @@
+# Versions from the macOS environment used to validate this pipeline.
+numpy==2.5.3
+scipy==1.18.1
+Pillow==12.3.0
